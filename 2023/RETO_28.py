@@ -12,7 +12,7 @@ def es_expresion_matematica_correcta(expresion:str) -> bool:
             if indice % 2 == 0:
                 try:
                     float(valor)
-                    check = True;
+                    check = True
                 except:
                     return False
             else:
